@@ -56,4 +56,8 @@ y
 2. Display element of an array
 3. Search the element within array given by the user
 4. Sort the array by using any sort method
-Enter the number of step you want to proceed:
+Enter the number of step you want to proceed:3
+Do you want to repeat the process? (Yes or No)
+n
+Enter the position of array you want to search: 5
+The element is :6
