@@ -1,0 +1,59 @@
+1. Accept elements of an array
+2. Display element of an array
+3. Search the element within array given by the user
+4. Sort the array by using any sort method
+Enter the number of step you want to proceed:1
+Do you want to repeat the process? (Yes or No)
+y
+Enter six element of array:
+1
+Enter six element of array:
+2
+Enter six element of array:
+3
+Enter six element of array:
+4
+Enter six element of array:
+5
+Enter six element of array:
+6
+1. Accept elements of an array
+2. Display element of an array
+3. Search the element within array given by the user
+4. Sort the array by using any sort method
+Enter the number of step you want to proceed:2
+Do you want to repeat the process? (Yes or No)
+y
+1
+2
+3
+4
+5
+6
+1. Accept elements of an array
+2. Display element of an array
+3. Search the element within array given by the user
+4. Sort the array by using any sort method
+Enter the number of step you want to proceed:3
+Do you want to repeat the process? (Yes or No)
+y
+Enter the position of array you want to search: 2
+The element is :3
+1. Accept elements of an array
+2. Display element of an array
+3. Search the element within array given by the user
+4. Sort the array by using any sort method
+Enter the number of step you want to proceed:4
+Do you want to repeat the process? (Yes or No)
+y
+1
+2
+3
+4
+5
+6
+1. Accept elements of an array
+2. Display element of an array
+3. Search the element within array given by the user
+4. Sort the array by using any sort method
+Enter the number of step you want to proceed:
