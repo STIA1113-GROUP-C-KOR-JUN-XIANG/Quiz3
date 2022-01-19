@@ -1,0 +1,63 @@
+import java.util.Scanner;
+
+public class Quiz_3 {
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int []list = new int[6];
+		char reply=0;
+		do{
+			System.out.println("1. Accept elements of an array"); 
+			System.out.println("2. Display element of an array");
+			System.out.println("3. Search the element within array given by the user");
+			System.out.println("4. Sort the array by using any sort method");
+			System.out.print("Enter the number of step you want to proceed:");
+			int step = sc.nextInt();
+			System.out.println("Do you want to repeat the process? (Yes or No)");
+			reply = sc.next().charAt(0);
+			switch(step) {
+				case 1:
+					insertArray(list);
+					continue;
+				case 2:
+					displayArray(list);
+					continue;
+				case 3:
+					searchArray(list);
+					continue;
+				case 4:
+					sortArray(list);
+					continue;
+			}
+		}while(reply=='Y'||reply=='y');
+	}
+	
+	public static void insertArray(int[]list) {
+		Scanner sc = new Scanner(System.in);
+		for(int x=0;x<list.length; x++) {
+			System.out.println("Enter six element of array:");
+			list[x]=sc.nextInt();
+		}
+	}
+	
+	public static void displayArray(int[]list) {
+		for (int x=0; x< list.length; x++) {
+				System.out.println(list[x]);
+		}
+	}
+	
+	public static void searchArray(int[]list) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the position of array you want to search: ");
+		int pos = sc.nextInt();
+		System.out.println("The element is :"+list[pos]);
+	}
+	
+	public static void sortArray(int[]list) {
+		for (int x=0; x< list.length; x++) {
+			System.out.println(list[x]);
+		}
+	}
+}
